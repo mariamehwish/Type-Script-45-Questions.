@@ -1,18 +1,18 @@
 
 let age :number = 16;
 
-if(age <2 ){
+else if(age <2 ){
     console.log("the person is a baby");
 }
-if (age <4){
+else if (age <4){
     console.log("the person is a toddler.");
 }
-if (age < 13 ){
+alse if (age < 13 ){
     console.log("the person is a kid.");
 }
-if (age <20 ){
+alse if (age <20 ){
     console.log("the person is a Teenager.");
 }
-if (age <65 ){
+else{
     console.log("the person is an adult.");
 }
